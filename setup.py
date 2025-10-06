@@ -23,5 +23,5 @@ if __name__ == '__main__':
         author='Gaurav',
         author_email='gauravsingh10395@gmail.com',
         packages=find_packages(),
-        install_requires=get_requirements('requirements.txt'),
+            install_requires=get_requirements('requirements.txt'),
     )
