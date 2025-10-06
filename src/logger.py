@@ -17,8 +17,6 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-logger = logging.getLogger("ml_project")
-
 if __name__ == "__main__":
-    logger.info("Logger is working!")
-    print(f"Logging to file: {LOG_FILE}")
+    logging.info("Logger is working!")
+    
