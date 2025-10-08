@@ -1,7 +1,5 @@
 import sys
 from dataclasses import dataclass
-from src.utils import save_object
-import src.utils as utils
 
 import pandas as pd
 import numpy as np
